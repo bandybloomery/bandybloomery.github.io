@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\nThank you for visiting our website! Bandy Bloomery was founded in 2021 by Hillary Moore.\r\nwhy?\r\n\r\nHillary Moore grew up South of Roanoke in Ferrum. She graduated from Radford University in XXXX with a BS in Biology.\r\nShe’s the proud owner of Bandy Bloomery and passionate about sustainable agriculture. What started as a hobby and interest rapidly became a passion. Most days you’ll find her tending to the nearly half acre farm. When she isn’t farming Hillary enjoys cycling with her partner Stephen and their dogs Daisy and Willow.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-22T16:32:45-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Welcome to Bandy Bloomery",
+      "author": [],
+      "contents": "\r\n\r\nThank you for visiting our website! Bandy Bloomery was founded in 2021 by Hillary Moore.\r\nwhy?\r\n\r\nHillary Moore grew up South of Roanoke in Ferrum. She graduated from Radford University in XXXX with a BS in Biology.\r\nShe’s the proud owner of Bandy Bloomery and passionate about sustainable agriculture. What started as a hobby and interest rapidly became a passion. Most days you’ll find her tending to the nearly half acre farm. When she isn’t farming Hillary enjoys cycling with her partner Stephen and their dogs Daisy and Willow.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-22T16:32:45-04:00"
+    }
+  ],
+  "collections": []
+}
