@@ -9,10 +9,10 @@ logo:
     #href: 
 navbar:
   right:
-    #- text: "Home"
-    #  href: index.html
-    #- text: "About"
-    #  href: about.html
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
     #- text: "Catalog"
     #  href: catalog.html
     - icon: fab fa-instagram

@@ -86,29 +86,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Bandy Bloomery: About this site</title>
+  <title>Bandy Bloomery: Meet your Farmer</title>
   
-  <meta property="description" itemprop="description" content="Some additional details about the website"/>
   
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Bandy Bloomery: About this site"/>
+  <meta property="og:title" content="Bandy Bloomery: Meet your Farmer"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the website"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Bandy Bloomery"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Bandy Bloomery: About this site"/>
-  <meta property="twitter:description" content="Some additional details about the website"/>
+  <meta property="twitter:title" content="Bandy Bloomery: Meet your Farmer"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Some additional details about the website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Meet your Farmer"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2123,7 +2120,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
   
-  
+  @font-face {
+    font-family: Sinhala_MN;
+    src: url('Sinhala MN.ttc');
+  }
+    
+  /*@import url('Sinhala MN.ttc');*/
   
   html {
     /*-- Main font sizes --*/
@@ -2133,16 +2135,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
+    --title-color:     #B6B7A8;
+    --header-color:    #B6B7A8;
+    --body-color:      #B6B7A8;
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
+    --heading-font:    Sinhala_MN, sans-serif;
+    --mono-font:       Sinhala_MN, monospace;
     --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
+    --navbar-font:     Sinhala_MN, sans-serif;  /* websites + blogs only */
+    
+  }
+  
+  body  {
+  /* Background for site*/
+    background-color: #395C5D;/*B6B7A8 sand */
   }
   
   /*-- ARTICLE METADATA --*/
@@ -2171,18 +2179,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* These properties only apply to Distill sites and blogs  */
   
   .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
+    --title-size:       25px;
+    --text-color:       #414042;
+    --text-size:        20px;
     --hover-color:      white;
-    --bkgd-color:       #395C5D;
+    --bkgd-color:       #B6B7A8; /* 395C5D green*/
   }
   
   .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-color:      #414042;
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #395C5D;
+    --bkgd-color:       #B6B7A8;
   }
   
   /*-- Additional custom styles --*/
@@ -2362,7 +2370,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this site","description":"Some additional details about the website","authors":[]}
+{"title":"Meet your Farmer","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2373,6 +2381,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="index.html" class="title">Bandy Bloomery</a>
 </div>
 <div class="nav-right">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
 <a href="https://www.instagram.com/bandybloomery/">
 <i class="fab fa-instagram" aria-hidden="true"></i>
 </a>
@@ -2388,19 +2398,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this site</h1>
+<h1>Meet your Farmer</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the website</p></p>
+
 </div>
 
 
 <div class="d-article">
-<p>Thank you for visiting our website! Bandy Bloomery was founded in 2021 by Hillary Moore.</p>
-<p><strong>why</strong>?</p>
 <p><img src="assets/hilly_portrait.JPG" style="width:50.0%" /></p>
-<p>Hillary Moore grew up South of Roanoke in Ferrum. She graduated from Radford University in XXXX with a BS in Biology.</p>
-<p>She’s the proud owner of Bandy Bloomery and passionate about sustainable agriculture. What started as a hobby and interest rapidly became a passion. Most days you’ll find her tending to the nearly half acre farm. When she isn’t farming Hillary enjoys cycling with her partner Stephen and their dogs Daisy and Willow.</p>
+<p>Hi, I’m Hillary! I was born and raised in Southwest Virginia and called Ferrum, Virginia home for 17 years before getting my B.S. in Biology from Radford University in 2013.</p>
+<p>I’ve dreamed of owning a farm for years and realized I didn’t need to move from our quaint little lot to have the romanticized “farm life” I frequently day dreamed about. I could do it right here, right now.</p>
+<p>In March of 2021 I took a leap of faith and put my love of plants, ecology, learning, and being outdoors into action. I designed and built a small greenhouse around my late mother’s old steel frame that had been on my parents property from when she owned her own nursery in the 90’s. Before it was even fully constructed, I was already day dreaming of ripping out our front lawn to build more beds, and fill our tiny lot with beautiful flowers to share around the community.</p>
+<p>Within a matter of weeks Bandy Bloomery had come full circle from a daydream to my day job! I feel very lucky to be able to fully dedicate myself to changing this semi-urban lot into a tiny flourishing flower farm. I work hard to bring beautiful, unique, and sustainably grown flowers straight from my house and farm to yours. I truly hope they bring you and your loved ones as much joy as they do for me!</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
