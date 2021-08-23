@@ -1,0 +1,18 @@
+---
+title: "Contact"
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center>
+![](assets/BB_Sunflower.JPG){width="50%"}
+</center>
+
+We offer seasonal arrangements for local delivery, wholesale bulk buckets for florists and fresh bouquets for local businesses.
+
+Contact us on [Instagram](https://www.instagram.com/bandybloomery/), [Facebook](https://www.facebook.com/BandyBloomery) or via email at bandybloomery@gmail.com to order today.
+
+
